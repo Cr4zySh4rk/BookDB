@@ -1,7 +1,7 @@
 export const PORT = 5555;
 
 export const mongoDBURL =
-  '<your mongo db key here>';
+  '<your_mongo_db_credentials>';
 
 // Please create a free database for yourself.
 // This database will be deleted after tutorial
