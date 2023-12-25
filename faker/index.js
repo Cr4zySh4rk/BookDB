@@ -33,7 +33,7 @@ const Book = mongoose.model('Book', bookSchema);
 async function generateRandomData() {
   const books = [];
 
-  for (let i = 0; i < 13567; i++) {
+  for (let i = 0; i < 1; i++) { // increase number for more random entries to be inserted into the database
     const book = {
       title: faker.lorem.words(),
       author: faker.name.findName(),
