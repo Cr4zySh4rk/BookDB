@@ -1,6 +1,7 @@
 import { AiOutlineClose } from 'react-icons/ai';
 import { PiBookOpenTextLight } from 'react-icons/pi';
 import { BiUserCircle } from 'react-icons/bi';
+import { MdBookmarkAdd } from "react-icons/md";
 
 const BookModal = ({ book, onClose }) => {
   return (
@@ -29,10 +30,10 @@ const BookModal = ({ book, onClose }) => {
           <h2 className='my-1'>{book.author}</h2>
         </div>
         <div className='flex justify-start items-center gap-x-2'>
-          <BiUserCircle className='text-red-300 text-2xl' />
+          <MdBookmarkAdd className='text-red-300 text-2xl' />
           <h2 className='my-1'>{book.issued}</h2>
         </div>
-        <p className='mt-4'>Anything You want to show</p>
+        <p className='mt-4'>Description</p>
         <p className='my-2'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quia
           voluptatum sint. Nisi impedit libero eveniet cum vitae qui expedita
